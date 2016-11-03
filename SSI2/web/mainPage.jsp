@@ -13,9 +13,9 @@
     </head>
     <body>
         <form name="mainPage" action="enter.do" >
-            <input type="text" name="firstName" value="" />
-            <input type="text" name="surname" value="" />
-            <input type="submit" name="submit" value="submit" />
+            First name: <input type="text" name="firstName" value="" /> <br>
+            Surname: <input type="text" name="surname" value="" /> <br>
+            <input type="submit" name="submit" value="submit" /> 
         </form>
     </body>
 </html>
