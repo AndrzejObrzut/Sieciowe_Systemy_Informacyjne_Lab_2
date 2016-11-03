@@ -20,6 +20,7 @@ public class EnterActionFormBean extends org.apache.struts.action.ActionForm {
     private String name;   
     private int number;
     private String firstName;
+    private String surname;
 
     public String getFirstName() {
         return firstName;
@@ -36,7 +37,7 @@ public class EnterActionFormBean extends org.apache.struts.action.ActionForm {
     public void setSurname(String surname) {
         this.surname = surname;
     }
-    private String surname;
+    
 
     /**
      * @return
