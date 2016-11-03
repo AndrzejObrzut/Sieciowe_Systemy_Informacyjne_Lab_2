@@ -7,6 +7,7 @@
 
 <struts-config>
     <form-beans>
+        <form-bean name="EnterActionFormBean" type="com.myapp.struts.EnterActionFormBean"/>
     
     </form-beans>
     
@@ -19,6 +20,10 @@
     </global-forwards>
 
     <action-mappings>
+        <action name="EnterActionFormBean" path="/enter" scope="request" type="com.myapp.struts.EnsterAction" validate="false">
+            <forward name="success" path="/success.jsp"/>
+            <forward name="failure" path="/failure.jsp"/>
+        </action>
         <action path="/Welcome" forward="/welcomeStruts.jsp"/>
     </action-mappings>
     
