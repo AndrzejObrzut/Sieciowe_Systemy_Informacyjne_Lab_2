@@ -12,7 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <form name="mainPage">
+        <form name="mainPage" action="enter.do" >
             <input type="text" name="firstName" value="" />
             <input type="text" name="surname" value="" />
             <input type="submit" name="submit" value="submit" />
